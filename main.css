@@ -154,11 +154,7 @@ footer {
     }
 
     img {
-        max-width: 60%;
-    }
-
-    .produtos img {
-        max-width: 60%;
+        max-width: 100%;
     }
 
     .store {
@@ -174,6 +170,7 @@ footer {
     }
 
     .container {
+        display: block;
         max-width: 90%;
     }
 
@@ -236,5 +233,9 @@ footer {
     footer {
         padding: 16px;
         margin-top: 8px;
+    }
+
+    .produto p {
+        font-size: 1.5em;
     }
 }
